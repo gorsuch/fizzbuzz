@@ -1,6 +1,8 @@
 class FizzBuzz
   def calculate(n)
-    
+    if n % 3 == 0
+      return "FizzBuzz"
+    end
   end
 end
 
