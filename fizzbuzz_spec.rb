@@ -13,7 +13,6 @@ class FizzBuzz
 end
 
 describe FizzBuzz, "#calculate" do
-  
   let(:fb) { FizzBuzz.new }
   
   it "returns FizzBuzz for all multiples of 3 and 5" do
@@ -29,5 +28,4 @@ describe FizzBuzz, "#calculate" do
   it "returns the passed number if not a multiple of 3 or 5" do
     fb.calculate(77).should == 77
   end
-  
 end
