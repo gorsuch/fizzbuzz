@@ -7,6 +7,9 @@ class FizzBuzz
 end
 
 describe FizzBuzz, "#calculate" do
+  
+  let(:fb) { FizzBuzz.new }
+  
   it "returns FizzBuzz for all multiples of 3 and 5" do
     fb = FizzBuzz.new
     fb.calculate(15).should == "FizzBuzz"
